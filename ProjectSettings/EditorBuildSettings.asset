@@ -5,10 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 14c8d36aac5d48a4980cb3750bd8a279
+  - enabled: 1
+    path: Assets/Scenes/LobbyScene.unity
+    guid: 9915a6028f96822439178516499c67a9
+  - enabled: 1
+    path: Assets/Scenes/FreelanceScene.unity
+    guid: b6042502f4f6f74448933a42bdc2c820
+  - enabled: 1
+    path: Assets/Scenes/FanArtScene.unity
+    guid: b4499a1aea262c94c890ba0cb74f3bfb
+  - enabled: 1
+    path: Assets/Scenes/DigitalDesignScene.unity
+    guid: da4b6ac2e0e9bf44aa3c5b6daf43cdbe
+  - enabled: 1
+    path: Assets/Scenes/ComputerLabScene.unity
+    guid: c2077bf9cc7d1e14f8919fb7146d7a9a
+  - enabled: 1
+    path: Assets/Scenes/BrandingScene.unity
+    guid: d422a11f8ddc08f4abffae7a302a6a6e
+  - enabled: 1
+    path: Assets/Scenes/AlbumCoverScene.unity
+    guid: f12eeada885599d40aca0afa8376f6ff
   m_configObjects: {}

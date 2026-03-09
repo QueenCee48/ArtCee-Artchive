@@ -8,9 +8,12 @@ public class CharacterCntrlr : MonoBehaviour
 
     Animator anim;
 
+    SceneMngr sceneMngr;
+
     // Start is called before the first frame update
     void Start()
     {
+        sceneMngr = GameObject.Find("SceneManager").GetComponent<SceneMngr>();
         playerTrans = GetComponent<Transform>();
         anim = GetComponent<Animator>();
 
@@ -78,5 +81,65 @@ public class CharacterCntrlr : MonoBehaviour
         anim.SetBool("Walk E", false);
         anim.SetBool("Walk N", false);
         anim.SetBool("Walk W", false);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        GameObject otherGO = collision.gameObject;
+
+        if (otherGO.tag == "Door")
+        {
+            switch (otherGO.name)
+            {
+                case "OStoLobby":
+                    sceneMngr.LoadScene("LobbyScene");
+                    break;
+                case "OStoLab":
+                    sceneMngr.LoadScene("ComputerLabScene");
+                    break;
+                case "LobbytoOS":
+                    sceneMngr.LoadScene("MainScene");
+                    break;
+                case "LobbytoFA":
+                    sceneMngr.LoadScene("FanArtScene");
+                    break;
+                case "LobbytoDD":
+                    sceneMngr.LoadScene("DigitalDesignScene");
+                    break;
+                case "LobbytoAC":
+                    sceneMngr.LoadScene("AlbumCoverScene");
+                    break;
+                case "LobbytoFL":
+                    sceneMngr.LoadScene("FreelanceScene");
+                    break;
+                case "LobbytoBR":
+                    sceneMngr.LoadScene("BrandingScene");
+                    break;
+                case "FLtoLobby":
+                    sceneMngr.LoadScene("LobbyScene");
+                    break;
+                case "FAtoLobby":
+                    sceneMngr.LoadScene("LobbyScene");
+                    break;
+                case "DDtoLobby":
+                    sceneMngr.LoadScene("LobbyScene");
+                    break;
+                case "LabtoOS":
+                    sceneMngr.LoadScene("MainScene");
+                    break;
+                case "LabtoBR":
+                    sceneMngr.LoadScene("BrandingScene");
+                    break;
+                case "BRtoLobby":
+                    sceneMngr.LoadScene("LobbyScene");
+                    break;
+                case "BRtoLab":
+                    sceneMngr.LoadScene("ComputerLabScene");
+                    break;
+                case "ACtoLobby":
+                    sceneMngr.LoadScene("LobbyScene");
+                    break;
+            }
+        }
     }
 }
