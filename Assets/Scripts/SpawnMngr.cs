@@ -30,9 +30,7 @@ public class SpawnMngr : MonoBehaviour
             GameObject[] spawns = GameObject.FindGameObjectsWithTag("SpawnPoint");
 
             foreach (GameObject spawn in spawns)
-            {
-                Debug.Log("Checking spawn point: " + spawn.name);
-                
+            {                
                 //if matching spawn name
                 if (spawn.name == GameState.spawnPoint)
                 {

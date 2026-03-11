@@ -95,49 +95,49 @@ public class CharacterCntrlr : MonoBehaviour
                     sceneMngr.LoadScene("LobbyScene", "SpawnOStoLob");
                     break;
                 case "OStoLab":
-                    sceneMngr.LoadScene("ComputerLabScene", "");
+                    sceneMngr.LoadScene("ComputerLabScene", "SpawnOStoLab");
                     break;
                 case "LobbytoOS":
                     sceneMngr.LoadScene("MainScene", "SpawnLobtoOS");
                     break;
                 case "LobbytoFA":
-                    sceneMngr.LoadScene("FanArtScene", "");
+                    sceneMngr.LoadScene("FanArtScene", "SpawnLobtoFA");
                     break;
                 case "LobbytoDD":
-                    sceneMngr.LoadScene("DigitalDesignScene", "");
+                    sceneMngr.LoadScene("DigitalDesignScene", "SpawnLobtoDD");
                     break;
                 case "LobbytoAC":
-                    sceneMngr.LoadScene("AlbumCoverScene", "");
+                    sceneMngr.LoadScene("AlbumCoverScene", "SpawnLobtoAC");
                     break;
                 case "LobbytoFL":
-                    sceneMngr.LoadScene("FreelanceScene", "");
+                    sceneMngr.LoadScene("FreelanceScene", "SpawnLobtoFL");
                     break;
                 case "LobbytoBR":
-                    sceneMngr.LoadScene("BrandingScene", "");
+                    sceneMngr.LoadScene("BrandingScene", "SpawnLobtoBR");
                     break;
                 case "FLtoLobby":
-                    sceneMngr.LoadScene("LobbyScene", "");
+                    sceneMngr.LoadScene("LobbyScene", "SpawnFLtoLob");
                     break;
                 case "FAtoLobby":
-                    sceneMngr.LoadScene("LobbyScene", "");
+                    sceneMngr.LoadScene("LobbyScene", "SpawnFAtoLob");
                     break;
                 case "DDtoLobby":
-                    sceneMngr.LoadScene("LobbyScene", "");
+                    sceneMngr.LoadScene("LobbyScene", "SpawnDDtoLob");
                     break;
                 case "LabtoOS":
                     sceneMngr.LoadScene("MainScene", "SpawnLabtoOS");
                     break;
                 case "LabtoBR":
-                    sceneMngr.LoadScene("BrandingScene", "");
+                    sceneMngr.LoadScene("BrandingScene", "SpawnLabtoBR");
                     break;
                 case "BRtoLobby":
-                    sceneMngr.LoadScene("LobbyScene", "");
+                    sceneMngr.LoadScene("LobbyScene", "SpawnBRtoLob");
                     break;
                 case "BRtoLab":
-                    sceneMngr.LoadScene("ComputerLabScene", "");
+                    sceneMngr.LoadScene("ComputerLabScene", "SpawnBRtoLab");
                     break;
                 case "ACtoLobby":
-                    sceneMngr.LoadScene("LobbyScene", "");
+                    sceneMngr.LoadScene("LobbyScene", "SpawnACtoLob");
                     break;
             }
         }
