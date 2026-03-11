@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class CharacterCntrlr : MonoBehaviour
 {
+    public GameState GameState {get; set;}
+
     Transform playerTrans;
-
     Animator anim;
-
     SceneMngr sceneMngr;
 
     // Start is called before the first frame update
@@ -92,52 +92,52 @@ public class CharacterCntrlr : MonoBehaviour
             switch (otherGO.name)
             {
                 case "OStoLobby":
-                    sceneMngr.LoadScene("LobbyScene");
+                    sceneMngr.LoadScene("LobbyScene", "SpawnOStoLob");
                     break;
                 case "OStoLab":
-                    sceneMngr.LoadScene("ComputerLabScene");
+                    sceneMngr.LoadScene("ComputerLabScene", "");
                     break;
                 case "LobbytoOS":
-                    sceneMngr.LoadScene("MainScene");
+                    sceneMngr.LoadScene("MainScene", "SpawnLobtoOS");
                     break;
                 case "LobbytoFA":
-                    sceneMngr.LoadScene("FanArtScene");
+                    sceneMngr.LoadScene("FanArtScene", "");
                     break;
                 case "LobbytoDD":
-                    sceneMngr.LoadScene("DigitalDesignScene");
+                    sceneMngr.LoadScene("DigitalDesignScene", "");
                     break;
                 case "LobbytoAC":
-                    sceneMngr.LoadScene("AlbumCoverScene");
+                    sceneMngr.LoadScene("AlbumCoverScene", "");
                     break;
                 case "LobbytoFL":
-                    sceneMngr.LoadScene("FreelanceScene");
+                    sceneMngr.LoadScene("FreelanceScene", "");
                     break;
                 case "LobbytoBR":
-                    sceneMngr.LoadScene("BrandingScene");
+                    sceneMngr.LoadScene("BrandingScene", "");
                     break;
                 case "FLtoLobby":
-                    sceneMngr.LoadScene("LobbyScene");
+                    sceneMngr.LoadScene("LobbyScene", "");
                     break;
                 case "FAtoLobby":
-                    sceneMngr.LoadScene("LobbyScene");
+                    sceneMngr.LoadScene("LobbyScene", "");
                     break;
                 case "DDtoLobby":
-                    sceneMngr.LoadScene("LobbyScene");
+                    sceneMngr.LoadScene("LobbyScene", "");
                     break;
                 case "LabtoOS":
-                    sceneMngr.LoadScene("MainScene");
+                    sceneMngr.LoadScene("MainScene", "SpawnLabtoOS");
                     break;
                 case "LabtoBR":
-                    sceneMngr.LoadScene("BrandingScene");
+                    sceneMngr.LoadScene("BrandingScene", "");
                     break;
                 case "BRtoLobby":
-                    sceneMngr.LoadScene("LobbyScene");
+                    sceneMngr.LoadScene("LobbyScene", "");
                     break;
                 case "BRtoLab":
-                    sceneMngr.LoadScene("ComputerLabScene");
+                    sceneMngr.LoadScene("ComputerLabScene", "");
                     break;
                 case "ACtoLobby":
-                    sceneMngr.LoadScene("LobbyScene");
+                    sceneMngr.LoadScene("LobbyScene", "");
                     break;
             }
         }
