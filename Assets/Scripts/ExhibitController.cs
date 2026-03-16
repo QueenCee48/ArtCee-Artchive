@@ -1,87 +1,41 @@
-using System;
-using System.Collection;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ExhibitController : MonoBehaviour
 {
-    // place this script on an Empty Game Object
-        // inside Game Object: detailViewImage (with sprite renderer), close btn (with button), detailViewPage (with sprite renderer), detailViewTxt (with text), detailViewTab (with sprite renderer)
-
-    public GameObject detailViewPrefab; //Set in unity editor
-
-    public Text detailViewTxt; //Set in unity editor
-	
-    public SpriteRenderer detailViewImg; //Set in unity editor
-    public SpriteRenderer detailViewPage; //Set in unity editor
-    public SpriteRenderer detailViewTab; //Set in unity editor
-
-    public Sprite selectedTabImg;
-    public Sprite deselectedTabImg;
-
-	public Sprite[] DVSprites; //Set in unity editor
-
-    public bool detailViewOpen;
-    public bool aboutTabOpen;
-    public bool storyTabOpen;
-
     string aboutTxt;
     string storyTxt;
-	
-	public void start()
-	{
-		detailViewOpen = false;
-        aboutTabOpen = false;
-        storyTabOpen = false;
+    public Sprite detailViewSprite;
 
-        aboutTxt = "";
-        storyTxt = "";
-	}
-	
-	public static void OpenDetailView()
-	{
-        detailViewOpen = true;
-        aboutTabOpen = true;
-        storyTabOpen = false;
-        detailViewPage.enabled = true;
+    public DetailViewController detailViewCntrlr;
 
-		switch (/*figure out what to switch here*/) 
-		{
-			case "RickSV" :
-				//swap out the sprite
-				detailViewImg.sprite = DVSprites[1];
-
-                aboutTxt = "";
-                storyTxt = "";
-            
-                
-				
-
-				break;
-		}
-
-        //enable image and text components in exhibit game object
-        detailViewImg.enabled = true;
-        detailViewTxt.enabled = true;
-			
+    // Start is called before the first frame update
+    void Start()
+    {
+        // detailViewCntrlr = GameObject.Find("DetailView").GetComponent<DetailViewController>();
     }
-	
-	public static void CloseDetailView()
-	{
-		detailViewOpen = false;
-        detailViewImg.enabled = false;
-        detailViewTxt.enabled = false;
-        aboutTxt = "";
-        storyTxt = "";
-	}
 
-    public static void SwapDetailDataTabs() {
-        if (aboutTabOpen && !storyTabOpen) {
-            detailViewTxt = aboutTxt;
-        }
-        else if (!aboutTabOpen && storyTabOpen) {
-            detailViewTxt = storyTxt;
-        }
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
+
+    public void OnMouseDown()
+    {
+        switch (gameObject.name)
+        {
+            case "RickSV":
+                aboutTxt = "\n            <b><i>Rick x Simpsons</i></b> \n\n\n<b>Date:</b>  <i>April 2021</i> \n\n<b>Tools:</b>  <i>Procreate</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>This is my interpretation of what Rick (from Rick and Morty) would look like in the art style of The Simpsons.</i>";
+                break;
+        }
+        detailViewCntrlr.OpenDetailView(detailViewSprite, aboutTxt, storyTxt);
+    }
+
+    // public void PassExhibitInfo()
+    // {
+    //     detailViewCntrlr.OpenDetailView(detailViewSprite, aboutTxt, storyTxt);
+    // }
 }
