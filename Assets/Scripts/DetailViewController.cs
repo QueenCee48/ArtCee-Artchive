@@ -6,9 +6,6 @@ using UnityEngine.UI;
 
 public class DetailViewController : MonoBehaviour
 {
-    // place this script on an Empty Game Object
-        // inside Game Object: detailViewImage (with sprite renderer), close btn (with button), detailViewPage (with sprite renderer), detailViewTxt (with text), detailViewTab (with sprite renderer)
-
     public Text detailViewTxt; 
     public Text aboutTabTxt;
     public Text storyTabTxt;
@@ -19,14 +16,16 @@ public class DetailViewController : MonoBehaviour
     public Image detailViewStoryTab; 
     public Image detailViewCloseBtn;
 
+    public BoxCollider2D[] smallViewColliders;
+
     public bool detailViewOpen;
     public bool aboutTabOpen;
     public bool storyTabOpen;
 
     public string aboutTxt;
     public string storyTxt;
-	
-	public void Start()
+
+    public void Start()
 	{
 		detailViewOpen = false;
         aboutTabOpen = false;
@@ -42,8 +41,6 @@ public class DetailViewController : MonoBehaviour
         aboutTabOpen = true;
         storyTabOpen = false;
 
-        //enable image and text components in exhibit game object
-
         detailViewTxt.enabled = true;
         aboutTabTxt.enabled = true;
         storyTabTxt.enabled = true;
@@ -58,6 +55,11 @@ public class DetailViewController : MonoBehaviour
         storyTxt = storyInfo;
         detailViewTxt.text = aboutTxt;
         detailViewImg.sprite = detailSprite;
+
+        foreach (BoxCollider2D collider in smallViewColliders)
+        {
+            collider.enabled = false;
+        }
     }
 	
 	public void CloseDetailView()
@@ -78,14 +80,10 @@ public class DetailViewController : MonoBehaviour
 
         aboutTxt = "";
         storyTxt = "";
-	}
 
-    // public void SwapDetailDataTabs() {
-    //     if (aboutTabOpen && !storyTabOpen) {
-    //         detailViewTxt.text = aboutTxt;
-    //     }
-    //     else if (!aboutTabOpen && storyTabOpen) {
-    //         detailViewTxt.text = storyTxt;
-    //     }
-    // }
+        foreach (BoxCollider2D collider in smallViewColliders)
+        {
+            collider.enabled = true;
+        }
+	}
 }

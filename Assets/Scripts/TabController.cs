@@ -24,7 +24,11 @@ public class TabController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (!detailViewCntrlr.detailViewOpen)
+        {
+            aboutTabImg.sprite = selectedTabImg;
+            storyTabImg.sprite = deselectedTabImg;
+        }
     }
 
     public void SwapDetailDataTabs() {
