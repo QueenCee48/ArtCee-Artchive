@@ -62,6 +62,114 @@ public class ExhibitController : MonoBehaviour
                 aboutTxt = "\n                    <b><i>Uzi x RB</i></b> \n\n\n<b>Date:</b>  <i>October 2022</i> \n\n<b>Tools:</b>  <i>Procreate</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
                 storyTxt = "\n\n<i>This is my interpretation of what Lil Uzi Vert would look like in the art style of Rowdyruff Boys from the Powerpuff Girls.</i>";
                 break;
+            case "VectPortSV":
+                aboutTxt = "\n              <b><i>Vector Portrait</i></b> \n\n\n<b>Date:</b>  <i>May 2025</i> \n\n<b>Tools:</b>  <i>Adobe Illustrator</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>This is a vector portrait of myself. I made a pixel portrait of my image and then made a vector version of the pixel version.</i>";
+                break;
+            case "LadyElegSV":
+                aboutTxt = "\n              <b><i>Lady Elegance</i></b> \n\n\n<b>Date:</b>  <i>February 2025</i> \n\n<b>Tools:</b>  <i>Adobe Illustrator</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>I found a beautiful portrait on Pinterest and made a vector version as a color study for my Digital Design class.</i>";
+                break;
+            case "FireEyesSV":
+                aboutTxt = "\n              <b><i>Fire Eyes</i></b> \n\n\n<b>Date:</b>  <i>January 2025</i> \n\n<b>Tools:</b>  <i>Adobe Photoshop, Adobe Illustrator</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>I found a really cool graphic on Pinterest that I wanted to recreate for my Digital Design class.</i>";
+                break;
+            case "HondaHighSV":
+                aboutTxt = "\n              <b><i>Honda Highlights</i></b> \n\n\n<b>Date:</b>  <i>May 2025</i> \n\n<b>Tools:</b>  <i>Adobe Photoshop, Adobe InDesign</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>I found an infographic on Pinterest and wanted to recreate a version on the Honda Civic.</i>";
+                break;
+            case "BlueFeverSV":
+                aboutTxt = "\n              <b><i>Blue Fever</i></b> \n\n\n<b>Date:</b>  <i>March 2025</i> \n\n<b>Tools:</b>  <i>Adobe Illustrator, Adobe Photoshop</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>I wanted to recreate a vibrant graphic piece I saw on Pinterest for my Digital Design class.</i>";
+                break;
+            case "EsthNewsSV":
+                aboutTxt = "\n              <b><i>Esthetician News</i></b> \n\n\n<b>Date:</b>  <i>April 2025</i> \n\n<b>Tools:</b>  <i>Adobe Photoshop, Adobe InDesign</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>My sister was graduating and wanted this news graphic as a prop for her graduation photos.</i>";
+                break;
+            case "BotOLoveSV":
+                aboutTxt = "\n              <b><i>Bottle Of Love</i></b> \n\n\n<b>Date:</b>  <i>February 2025</i> \n\n<b>Tools:</b>  <i>Adobe Illustrator</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>An ambiguous image that includes a bottle, hearts, and mouths all in the same image in the spirit of valentines day.</i>";
+                break;
+            case "LayOCupidSV":
+                aboutTxt = "\n              <b><i>Layers of Cupid</i></b> \n\n\n<b>Date:</b>  <i>February 2025</i> \n\n<b>Tools:</b>  <i>Adobe Illustrator</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>In the spirit of valentines day, this cupid is used to demonstrate the art of immersion.</i>";
+                break;
+            case "Vibe98SV":
+                aboutTxt = "\n              <b><i>Vibe 98</i></b> \n\n\n<b>Date:</b>  <i>January 2025</i> \n\n<b>Tools:</b>  <i>Adobe Photoshop</i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i>My recreation of a 90's vibe graphic I found on Pinterest.</i>";
+                break;
+            case "EDCSV":
+                aboutTxt = "\n              <b><i>Every Dollar Counts</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "FRVR22SV":
+                aboutTxt = "\n              <b><i>Forever 22</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "FastTimesSV":
+                aboutTxt = "\n              <b><i>Fast Times</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "TheDonSV":
+                aboutTxt = "\n              <b><i>The Don</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "MOMMSV":
+                aboutTxt = "\n              <b><i>Money On My Mind</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "ArchangelSV":
+                aboutTxt = "\n              <b><i>Archangel</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "EarthAngelSV":
+                aboutTxt = "\n              <b><i>Earth Angel</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "RightTimeSV":
+                aboutTxt = "\n              <b><i>Right Time</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "LiveLifeSV":
+                aboutTxt = "\n              <b><i>Live That Life</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "ElegEleSV":
+                aboutTxt = "\n              <b><i>Elegant Elephant</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "CurlyQueenSV":
+                aboutTxt = "\n              <b><i>Curly Queen</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "AngelSV":
+                aboutTxt = "\n              <b><i>Angel</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "WisdomSV":
+                aboutTxt = "\n              <b><i>Wisdom</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "LineOLoveSV":
+                aboutTxt = "\n              <b><i>Lines of Love</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "RoleModelsSV":
+                aboutTxt = "\n              <b><i>Role Models</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "TakeoffSV":
+                aboutTxt = "\n              <b><i>Takeoff</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "PinkLemonsSV":
+                aboutTxt = "\n              <b><i>Pink Lemons</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
+            case "ComebackSV":
+                aboutTxt = "\n              <b><i>The Comeback</i></b> \n\n\n<b>Date:</b>  <i></i> \n\n<b>Tools:</b>  <i></i> \n\n<b>Artist:</b>  <i>Ciera Baucham</i> \n\n<b>Medium:</b>  <i>Digital Art</i>";
+                storyTxt = "\n\n<i></i>";
+                break;
         }
         detailViewCntrlr.OpenDetailView(detailViewSprite, aboutTxt, storyTxt);
     }
