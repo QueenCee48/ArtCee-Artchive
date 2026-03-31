@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 354134337}
   - component: {fileID: 354134336}
   m_Layer: 0
-  m_Name: CurlyQueenSV
+  m_Name: PLSV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -711,7 +711,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: cdef28b7a06771d438a81dd5e26bbf9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b61b477f20f3484da56234741e721f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -734,8 +734,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b669446c529d948a04d7a8107593ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailViewSprite: {fileID: 21300000, guid: 65b6b3bc576e0a048a1a6631a8333517, type: 3}
-  detailViewCntrlr: {fileID: 0}
+  detailViewSprite: {fileID: 21300000, guid: 9bbc412bcca9a304d9e2068e9100029a, type: 3}
+  detailViewCntrlr: {fileID: 2143778348}
 --- !u!1 &372421417
 GameObject:
   m_ObjectHideFlags: 0
@@ -2661,7 +2661,7 @@ GameObject:
   - component: {fileID: 722576750}
   - component: {fileID: 722576749}
   m_Layer: 0
-  m_Name: RoleModelsSV
+  m_Name: BESV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2768,7 +2768,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 4645b5a7d6479924084d8564e25e78f1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e8e4e89245d190408b9988ce776bd79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2791,8 +2791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b669446c529d948a04d7a8107593ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailViewSprite: {fileID: 21300000, guid: b0e7e5f2128c29740838a2deb29564f4, type: 3}
-  detailViewCntrlr: {fileID: 0}
+  detailViewSprite: {fileID: 21300000, guid: 42a9a0699d8814944a30937e2e22a738, type: 3}
+  detailViewCntrlr: {fileID: 2143778348}
 --- !u!1 &730566416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,7 +2806,7 @@ GameObject:
   - component: {fileID: 730566419}
   - component: {fileID: 730566418}
   m_Layer: 0
-  m_Name: ComebackSV
+  m_Name: LCCSV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2913,7 +2913,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 7b4ace0021ebbc64f87732e1b772ff00, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d27a0f6f5c0e8b74798310ca7c0ae266, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2936,8 +2936,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b669446c529d948a04d7a8107593ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailViewSprite: {fileID: 21300000, guid: 9fecf6f4465e2a04e9aada1a56ba790f, type: 3}
-  detailViewCntrlr: {fileID: 0}
+  detailViewSprite: {fileID: 21300000, guid: ed006146549be124c910b23cfdc68c7b, type: 3}
+  detailViewCntrlr: {fileID: 2143778348}
 --- !u!1 &864512216
 GameObject:
   m_ObjectHideFlags: 0
@@ -2951,7 +2951,7 @@ GameObject:
   - component: {fileID: 864512219}
   - component: {fileID: 864512218}
   m_Layer: 0
-  m_Name: AngelSV
+  m_Name: IHUSV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3058,7 +3058,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: cb89786525698cd4b80f2899fc06d92c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b95689e5b4921048a48cd681042e732, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3081,8 +3081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b669446c529d948a04d7a8107593ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailViewSprite: {fileID: 21300000, guid: fad7966a485c0b64eaebb13273b88659, type: 3}
-  detailViewCntrlr: {fileID: 0}
+  detailViewSprite: {fileID: 21300000, guid: 0289b267f6022254eaa2673219d4b428, type: 3}
+  detailViewCntrlr: {fileID: 2143778348}
 --- !u!1 &896748888
 GameObject:
   m_ObjectHideFlags: 0
@@ -3209,7 +3209,7 @@ GameObject:
   - component: {fileID: 931647758}
   - component: {fileID: 931647757}
   m_Layer: 0
-  m_Name: TakeoffSV
+  m_Name: AC2SV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3316,7 +3316,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 2421bdead5981fb458caf09f270a5b2d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b35883d7adb70748ad0ed7cea9e7832, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3339,8 +3339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b669446c529d948a04d7a8107593ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailViewSprite: {fileID: 21300000, guid: d3b204f4c9ee05a4dbfcce7d50dd696b, type: 3}
-  detailViewCntrlr: {fileID: 0}
+  detailViewSprite: {fileID: 21300000, guid: d99214e3a9f476e42b3a97b390b8f6cd, type: 3}
+  detailViewCntrlr: {fileID: 2143778348}
 --- !u!1 &981592330
 GameObject:
   m_ObjectHideFlags: 0
@@ -3354,7 +3354,7 @@ GameObject:
   - component: {fileID: 981592333}
   - component: {fileID: 981592332}
   m_Layer: 0
-  m_Name: WisdomSV
+  m_Name: TESV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3461,7 +3461,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 47b4ce0b151ffdc48b245c00351e046d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7707b6a13cbcaea4097c3ef9cfba39b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3484,8 +3484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b669446c529d948a04d7a8107593ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailViewSprite: {fileID: 21300000, guid: 6208726410008c44e8303fb14b220050, type: 3}
-  detailViewCntrlr: {fileID: 0}
+  detailViewSprite: {fileID: 21300000, guid: d2e12d113ef7b1d4a943ec4f61bde2f0, type: 3}
+  detailViewCntrlr: {fileID: 2143778348}
 --- !u!1 &1304814536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3669,7 +3669,7 @@ GameObject:
   - component: {fileID: 1544903705}
   - component: {fileID: 1544903704}
   m_Layer: 0
-  m_Name: LineOLoveSV
+  m_Name: WOSV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3776,7 +3776,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: a3579101a26e5644eb4d1653d62b2420, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cf86f0cee88a98c4b92956a053617b81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3799,8 +3799,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b669446c529d948a04d7a8107593ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailViewSprite: {fileID: 21300000, guid: c16f7e11fba411040bd899128806be63, type: 3}
-  detailViewCntrlr: {fileID: 0}
+  detailViewSprite: {fileID: 21300000, guid: 63a5e5a4a0603ab4ebcf785526b45831, type: 3}
+  detailViewCntrlr: {fileID: 2143778348}
 --- !u!1 &1551351767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3926,7 +3926,7 @@ GameObject:
   - component: {fileID: 1611713605}
   - component: {fileID: 1611713604}
   m_Layer: 0
-  m_Name: PinkLemonsSV
+  m_Name: ACSV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4033,7 +4033,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: aa2aadaafaf13694faea0dd1ebcbbd71, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d56e16fdd9ab55c429c3ffa4bede9ca6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4056,8 +4056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b669446c529d948a04d7a8107593ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailViewSprite: {fileID: 21300000, guid: 36dba1392a631cc4eaef6d7e99e0c6b0, type: 3}
-  detailViewCntrlr: {fileID: 0}
+  detailViewSprite: {fileID: 21300000, guid: fad339e4d86b30149b8d6fe2c84485f9, type: 3}
+  detailViewCntrlr: {fileID: 2143778348}
 --- !u!1 &1670947431
 GameObject:
   m_ObjectHideFlags: 0
@@ -4071,7 +4071,7 @@ GameObject:
   - component: {fileID: 1670947434}
   - component: {fileID: 1670947433}
   m_Layer: 0
-  m_Name: ElegEleSV
+  m_Name: EDSV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4178,7 +4178,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 18d9ddd4029f4a742893b4479fd61833, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 909519468a200a54fbc18da050330d1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4201,8 +4201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b669446c529d948a04d7a8107593ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detailViewSprite: {fileID: 21300000, guid: 4c9df149c2a38874192e17626bed94ef, type: 3}
-  detailViewCntrlr: {fileID: 0}
+  detailViewSprite: {fileID: 21300000, guid: 73a4e7646930c9e4f97c8f97450af972, type: 3}
+  detailViewCntrlr: {fileID: 2143778348}
 --- !u!1 &1897014868
 GameObject:
   m_ObjectHideFlags: 0
@@ -5565,7 +5565,16 @@ MonoBehaviour:
   detailViewAboutTab: {fileID: 1897014869}
   detailViewStoryTab: {fileID: 1904943967}
   detailViewCloseBtn: {fileID: 2006698702}
-  smallViewColliders: []
+  smallViewColliders:
+  - {fileID: 1670947433}
+  - {fileID: 354134336}
+  - {fileID: 864512218}
+  - {fileID: 981592332}
+  - {fileID: 1544903704}
+  - {fileID: 722576749}
+  - {fileID: 931647757}
+  - {fileID: 1611713604}
+  - {fileID: 730566418}
   detailViewOpen: 0
   aboutTabOpen: 0
   storyTabOpen: 0
