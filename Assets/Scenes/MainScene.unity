@@ -3067,6 +3067,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 41817287747709176, guid: fbb4984004c7f0a4fab1edf8b8fc6ea7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1fae10c40f2edf542aa1c902ad68157a, type: 2}
+    - target: {fileID: 2339183570107280025, guid: fbb4984004c7f0a4fab1edf8b8fc6ea7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2719111325536754290, guid: fbb4984004c7f0a4fab1edf8b8fc6ea7, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -3111,6 +3119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7941601202452850288, guid: fbb4984004c7f0a4fab1edf8b8fc6ea7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2117150773, guid: 3315f0709901ad142bd88d351f6a7b8e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
