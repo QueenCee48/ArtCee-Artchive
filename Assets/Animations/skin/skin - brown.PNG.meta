@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 205a48cc0f594e64d9de3a424a9d1063
+guid: 3315f0709901ad142bd88d351f6a7b8e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: still
+      name: brown - still
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c0594f194c219440a3f3a5389b88843
-      internalID: -499988623
+      spriteID: bac67f4bab9bf504e967c7596f63104e
+      internalID: 2117150773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_1
+      name: brown - S_Idle_1
       rect:
         serializedVersion: 2
         x: 0
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52d5aa4c4ad57234485bdd6286a9e562
-      internalID: 1561931433
+      spriteID: f4b4bb50d66ee9c4e890b4f054a0ecc3
+      internalID: -1719193859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_2
+      name: brown - S_Idle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c237485e6d82974cb6085053d4a1958
-      internalID: -1264612795
+      spriteID: 1586c951bd8039c43b47496ffdea561b
+      internalID: -1054464698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_3
+      name: brown - S_Idle_3
       rect:
         serializedVersion: 2
         x: 128
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9c1aafc0729f7a45aaea80d23be0a65
-      internalID: -553762655
+      spriteID: 5d83b04bef9486e4e9a9f34693d6ff89
+      internalID: -830082720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_4
+      name: brown - S_Idle_4
       rect:
         serializedVersion: 2
         x: 192
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1e85619efbaaa74b830ce684f4250b6
-      internalID: -1250430183
+      spriteID: 982ea2644d1d9114c9f349f9dd342650
+      internalID: -1074355936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_5
+      name: brown - S_Idle_5
       rect:
         serializedVersion: 2
         x: 256
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc86ed09cc811fa478c5feab86a2d6d1
-      internalID: 1963872771
+      spriteID: 9edaefb5f234c2d479b4ed5f2e1f91f5
+      internalID: 1668156675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_6
+      name: brown - S_Idle_6
       rect:
         serializedVersion: 2
         x: 320
@@ -276,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e97c67cc63c56f47bfc39f8946befa5
-      internalID: -1651335365
+      spriteID: 6decf67eb9f6df741ad4abdfb0c6da75
+      internalID: 910489643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_7
+      name: brown - S_Idle_7
       rect:
         serializedVersion: 2
         x: 384
@@ -297,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af07d17f09eaff542a9a9b20e786ac94
-      internalID: -804572858
+      spriteID: 1d0a68ce0a82a684ea84d647a4345d82
+      internalID: 409867137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_8
+      name: brown - S_Idle_8
       rect:
         serializedVersion: 2
         x: 448
@@ -318,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f8239d980deee94ca74c27a8aac94be
-      internalID: 200039756
+      spriteID: 01e743a02c806d34a9ce682f79d654f6
+      internalID: -1648102617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_9
+      name: brown - S_Idle_9
       rect:
         serializedVersion: 2
         x: 512
@@ -339,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8569682fe24d15143b599643e629292a
-      internalID: 1375441895
+      spriteID: 718c08680ead3db41a11d1be6e786b4e
+      internalID: -1170131216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_10
+      name: brown - S_Idle_10
       rect:
         serializedVersion: 2
         x: 576
@@ -360,14 +360,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a373eb576cde1146b053626182f3928
-      internalID: 283232741
+      spriteID: 151c510a449e0504eadf711647bc481f
+      internalID: -67342373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_11
+      name: brown - S_Idle_11
       rect:
         serializedVersion: 2
         x: 640
@@ -381,14 +381,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e75269ca8d2bd49a648e51d4342c14
-      internalID: -173138178
+      spriteID: e256e9edfcf41ba4a83f6002462598bd
+      internalID: -1526828441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Idle_12
+      name: brown - S_Idle_12
       rect:
         serializedVersion: 2
         x: 704
@@ -402,14 +402,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 723516361bc4b184f89ece79c686e4f5
-      internalID: 844109445
+      spriteID: a717faab7b4dbb444b7a111c6e063b86
+      internalID: -1357135337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_1
+      name: brown - E_Idle_1
       rect:
         serializedVersion: 2
         x: 0
@@ -423,14 +423,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfba99012a18e8747af4ea1634e81005
-      internalID: 1130154245
+      spriteID: d7e9aab207961914d940bbc58f696636
+      internalID: 1223449616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_2
+      name: brown - E_Idle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -444,14 +444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ea68879bc2c66142a3242ed98098760
-      internalID: -2041430752
+      spriteID: 65b756306de2b834c9398cbf8834ffb7
+      internalID: -1764692628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_3
+      name: brown - E_Idle_3
       rect:
         serializedVersion: 2
         x: 128
@@ -465,14 +465,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eab46f527d072404fa25a06a25993cab
-      internalID: 1538838248
+      spriteID: 6a3cc02e3c349a84d857d46904e21652
+      internalID: 1418824628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_4
+      name: brown - E_Idle_4
       rect:
         serializedVersion: 2
         x: 192
@@ -486,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51cf7b317e6695f419d9c92ef63ba52d
-      internalID: 590265932
+      spriteID: d985c3629d0abc94b9f42e90783fcf62
+      internalID: -1842873736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_5
+      name: brown - E_Idle_5
       rect:
         serializedVersion: 2
         x: 256
@@ -507,14 +507,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4513a50af439117458a6fdde461cae22
-      internalID: 1738297446
+      spriteID: c62bb1e4f80fa514bb250aaf17213384
+      internalID: -2131738611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_6
+      name: brown - E_Idle_6
       rect:
         serializedVersion: 2
         x: 320
@@ -528,14 +528,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9bbae6d4d88227408a0949eebc2ee95
-      internalID: 1600565446
+      spriteID: fef6ae2b1ce47344eb81481134dde333
+      internalID: -210673097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_7
+      name: brown - E_Idle_7
       rect:
         serializedVersion: 2
         x: 384
@@ -549,14 +549,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce8b3f5b6c7f0db4b89588d36ea81033
-      internalID: -1475434685
+      spriteID: dd3f2a7c82d1461428822c22c7240852
+      internalID: 1694492975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_8
+      name: brown - E_Idle_8
       rect:
         serializedVersion: 2
         x: 448
@@ -570,14 +570,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4497083f5bfb5d4c86a042778375bf8
-      internalID: -366707774
+      spriteID: cb89c77186b7ef742a32f9996250237a
+      internalID: -1182693224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_9
+      name: brown - E_Idle_9
       rect:
         serializedVersion: 2
         x: 512
@@ -591,14 +591,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9abdb778ebd8644918de909dfb7706
-      internalID: 91665333
+      spriteID: f96498a44c1fb714091eb31db87da080
+      internalID: -1469773004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_10
+      name: brown - E_Idle_10
       rect:
         serializedVersion: 2
         x: 576
@@ -612,14 +612,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f0000802ac6b2747b44431df11e2a00
-      internalID: 1657547038
+      spriteID: 8fa2236047d52d54da80cafc3ad1a810
+      internalID: 209999934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_11
+      name: brown - E_Idle_11
       rect:
         serializedVersion: 2
         x: 640
@@ -633,14 +633,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2d37d2e952e8b14dbb478cea7191e54
-      internalID: 1253756025
+      spriteID: d74883c5d7c517b469c27b95ec6647d2
+      internalID: -1280034540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Idle_12
+      name: brown - E_Idle_12
       rect:
         serializedVersion: 2
         x: 704
@@ -654,14 +654,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8377f01f65a6bb342b76ff30d590b981
-      internalID: -1697291799
+      spriteID: 20872b2b42b1d2e42a76eeef1cdc3ba0
+      internalID: 2008640117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_1
+      name: brown - N_Idle_1
       rect:
         serializedVersion: 2
         x: 0
@@ -675,14 +675,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d618f806f24037b499ebddce46be998a
-      internalID: 509116911
+      spriteID: 5e7f42476f98b4745b164bab34dc25f5
+      internalID: -1162715131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_2
+      name: brown - N_Idle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -696,14 +696,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed3629de44afd924d80b918f8925ee14
-      internalID: -504693581
+      spriteID: 254a4322166fb2a47b257f407f221c07
+      internalID: 454490479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_3
+      name: brown - N_Idle_3
       rect:
         serializedVersion: 2
         x: 128
@@ -717,14 +717,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08432f74a9029f44891e65651d647c49
-      internalID: 1858277011
+      spriteID: f268e834cf2cd81448f26d849c5e8fa0
+      internalID: -1793495838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_4
+      name: brown - N_Idle_4
       rect:
         serializedVersion: 2
         x: 192
@@ -738,14 +738,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0637a51131c94748b92307e7001b160
-      internalID: -663875356
+      spriteID: 8d127b412ea02c847b574dee37095bdf
+      internalID: -1145855150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_5
+      name: brown - N_Idle_5
       rect:
         serializedVersion: 2
         x: 256
@@ -759,14 +759,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eab72174b384dd146950c8999b0e16c1
-      internalID: 318832298
+      spriteID: 7ae7443184f70164689e978957795ea9
+      internalID: -1409992664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_6
+      name: brown - N_Idle_6
       rect:
         serializedVersion: 2
         x: 320
@@ -780,14 +780,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a98a504f8ed8bf54fbd4089179471648
-      internalID: 1982971134
+      spriteID: 443c70f6b5adf454691c77313678fdaa
+      internalID: -1993587950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_7
+      name: brown - N_Idle_7
       rect:
         serializedVersion: 2
         x: 384
@@ -801,14 +801,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b0c45bff7a894944b9e88fe603766b2
-      internalID: -1300150365
+      spriteID: 278f0793ca692bf4c87804b46f040033
+      internalID: -1320303924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_8
+      name: brown - N_Idle_8
       rect:
         serializedVersion: 2
         x: 448
@@ -822,14 +822,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fa94e4e1f6f63c478310a3bd7e6abb5
-      internalID: 570681353
+      spriteID: 1296bc9ac783a384fa6d366c96b2ca36
+      internalID: 764733411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_9
+      name: brown - N_Idle_9
       rect:
         serializedVersion: 2
         x: 512
@@ -843,14 +843,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425f38fe977b6d14788754b07e6c1aed
-      internalID: -57557871
+      spriteID: 2ab9a274b5c5eef4a80d8ea861b7de2a
+      internalID: -860262099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_10
+      name: brown - N_Idle_10
       rect:
         serializedVersion: 2
         x: 576
@@ -864,14 +864,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb8b0d46ddf27aa46b8d93cc1fd0c925
-      internalID: 269564164
+      spriteID: 2785557c9a0ac084886d8f1423586207
+      internalID: -669350031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_11
+      name: brown - N_Idle_11
       rect:
         serializedVersion: 2
         x: 640
@@ -885,14 +885,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42bb23564f52ff4469f1e8b1766116c5
-      internalID: -321976103
+      spriteID: e32b7b9847cd58e4e8405f3cc63c951b
+      internalID: -964878280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Idle_12
+      name: brown - N_Idle_12
       rect:
         serializedVersion: 2
         x: 704
@@ -906,14 +906,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40d453053e3263f4589d7a3aa1730823
-      internalID: 2114426380
+      spriteID: a06488c4e762403478aff1e20c9b2e93
+      internalID: 165928591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_1
+      name: brown - W_Idle_1
       rect:
         serializedVersion: 2
         x: 0
@@ -927,14 +927,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf869f7723612bd478a47562fea2ca0b
-      internalID: -975824839
+      spriteID: e2bdab59dfb2822409f9a3c0ec972139
+      internalID: 1443973373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_2
+      name: brown - W_Idle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -948,14 +948,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b5719d3c2e95e049871d7c63050ebee
-      internalID: -440358403
+      spriteID: 1b461534c2cbf044692867fbe500429e
+      internalID: -1812399535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_3
+      name: brown - W_Idle_3
       rect:
         serializedVersion: 2
         x: 128
@@ -969,14 +969,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54720f160d50a9c4381c3395464033e0
-      internalID: 2061628258
+      spriteID: a9bef8e0f4b121e44bd4249d8df0e226
+      internalID: -1527736783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_4
+      name: brown - W_Idle_4
       rect:
         serializedVersion: 2
         x: 192
@@ -990,14 +990,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f48ef85652755142be22e22cecd549d
-      internalID: -872086870
+      spriteID: 973e1ce62c2e62f41997cbdec91328d0
+      internalID: -959971650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_5
+      name: brown - W_Idle_5
       rect:
         serializedVersion: 2
         x: 256
@@ -1011,14 +1011,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97d8b6199118d2946bb6bcf0a938cd3e
-      internalID: 324124520
+      spriteID: c34b5eabec4ecfb4ab95d7712bf4f00f
+      internalID: -454207662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_6
+      name: brown - W_Idle_6
       rect:
         serializedVersion: 2
         x: 320
@@ -1032,14 +1032,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dbe57391783d5c4ca5728ba3d21b9c6
-      internalID: -789442518
+      spriteID: 5e9454252e885e04eaacdc07afb5b120
+      internalID: -258441137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_7
+      name: brown - W_Idle_7
       rect:
         serializedVersion: 2
         x: 384
@@ -1053,14 +1053,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20ae3f6f9ecfda64b9e5f863bf50817c
-      internalID: 80804135
+      spriteID: f0e5b16fcad390549bade772fc176fde
+      internalID: -603332195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_8
+      name: brown - W_Idle_8
       rect:
         serializedVersion: 2
         x: 448
@@ -1074,14 +1074,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5278fcb5606757445b1adb43f524f20e
-      internalID: -1296748567
+      spriteID: af4b5454339ffc440bacc728b9531005
+      internalID: -905466750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_9
+      name: brown - W_Idle_9
       rect:
         serializedVersion: 2
         x: 512
@@ -1095,14 +1095,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13ef75102ab417c4c94588cabaead931
-      internalID: -1541754712
+      spriteID: 2099ef8b103fbcd4e9ffc503d2dfd2d5
+      internalID: -1296682272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_10
+      name: brown - W_Idle_10
       rect:
         serializedVersion: 2
         x: 576
@@ -1116,14 +1116,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78aaac4e3f75ddb488788a2448cd3772
-      internalID: 923897732
+      spriteID: 733085bed8d836344918616df360fac7
+      internalID: -1721192979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_11
+      name: brown - W_Idle_11
       rect:
         serializedVersion: 2
         x: 640
@@ -1137,14 +1137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ec24287e028b694e840851d0adcfde2
-      internalID: 1193743768
+      spriteID: cfec2674c1ba8b04fa7a12228f12a520
+      internalID: -1557708213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Idle_12
+      name: brown - W_Idle_12
       rect:
         serializedVersion: 2
         x: 704
@@ -1158,14 +1158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf01909685f9c354682d565c2e8d10a0
-      internalID: 461483387
+      spriteID: bab2606277c203f43953a30fe77ae6ad
+      internalID: -1711245807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Walk_1
+      name: brown - S_Walk_1
       rect:
         serializedVersion: 2
         x: 0
@@ -1179,14 +1179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9ac988be4851354288ca956e2937f5d
-      internalID: 503639670
+      spriteID: 1f668844916639642ad530d8deb3ec03
+      internalID: -1029108589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Walk_2
+      name: brown - S_Walk_2
       rect:
         serializedVersion: 2
         x: 64
@@ -1200,14 +1200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63d9afd11e02d2e46ad7277975e241df
-      internalID: 2019093414
+      spriteID: 28fa34442860b4c4c941e2b062b43f04
+      internalID: 947650162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Walk_3
+      name: brown - S_Walk_3
       rect:
         serializedVersion: 2
         x: 128
@@ -1221,14 +1221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef92946117bdf83498f045882a45be88
-      internalID: 2024299416
+      spriteID: 9c1780437acf2064cbf21e6731b4a883
+      internalID: -1296922035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Walk_4
+      name: brown - S_Walk_4
       rect:
         serializedVersion: 2
         x: 192
@@ -1242,14 +1242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b278fa8a79d74ff4582d093538077d52
-      internalID: 2097009850
+      spriteID: 00f902a75f241c5429124719355274dd
+      internalID: -472622124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Walk_5
+      name: brown - S_Walk_5
       rect:
         serializedVersion: 2
         x: 256
@@ -1263,14 +1263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc560209dd2ec7a479c20326dcacd658
-      internalID: 636936912
+      spriteID: 31db69e48f089c444ab27088e1a63b9a
+      internalID: -2085722715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: S_Walk_6
+      name: brown - S_Walk_6
       rect:
         serializedVersion: 2
         x: 320
@@ -1284,14 +1284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd8012505eb5144d91dd425977d400e
-      internalID: -420712341
+      spriteID: 3314adece23543647adb2f1af4a481ae
+      internalID: 2106462357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Walk_1
+      name: brown - N_Walk_1
       rect:
         serializedVersion: 2
         x: 0
@@ -1305,14 +1305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0105fc62ae2d2a345bdac3af2822c75c
-      internalID: -1645019495
+      spriteID: 06011861282ddf946be558a28aede062
+      internalID: -253044108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Walk_2
+      name: brown - N_Walk_2
       rect:
         serializedVersion: 2
         x: 64
@@ -1326,14 +1326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d6b8cd8e6d33134ca492faf4009196e
-      internalID: 486501911
+      spriteID: 5b46d984beaaa4f43bdae38384f26906
+      internalID: 1709553765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Walk_3
+      name: brown - N_Walk_3
       rect:
         serializedVersion: 2
         x: 128
@@ -1347,14 +1347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 947135c84c2c11f4d855d61f5ef0aa9f
-      internalID: 121991061
+      spriteID: 1507d69ac21eb6846baea4ec51ff7cc7
+      internalID: -170716710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Walk_4
+      name: brown - N_Walk_4
       rect:
         serializedVersion: 2
         x: 192
@@ -1368,14 +1368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40d545123ae4bd94788652c6b997944d
-      internalID: -1257180121
+      spriteID: f21ccbec0fe012f4ba0a48dadd67cb27
+      internalID: 1231353841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Walk_5
+      name: brown - N_Walk_5
       rect:
         serializedVersion: 2
         x: 256
@@ -1389,18 +1389,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31316c93564202d48878e0e366553cbb
-      internalID: 988604060
+      spriteID: 236d2d777aeebdb4590a826093a62af9
+      internalID: 1407899285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: N_Walk_6
+      name: brown - N_Walk_6
       rect:
         serializedVersion: 2
         x: 320
-        y: 127
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1410,14 +1410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d09cc133cc04ff47951afef1e844944
-      internalID: -762841308
+      spriteID: 4e136b1f06fa39b4f9ae90bcc9d11be6
+      internalID: -378068061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Walk_1
+      name: brown - E_Walk_1
       rect:
         serializedVersion: 2
         x: 0
@@ -1431,14 +1431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec5650e5b85c8914697965e207ce4a6e
-      internalID: -1041347725
+      spriteID: e348c7f4d5f983a48ba0f6d6d00c4f8c
+      internalID: 925165014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Walk_2
+      name: brown - E_Walk_2
       rect:
         serializedVersion: 2
         x: 64
@@ -1452,14 +1452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50c20e686164dfe4693cac478e767cee
-      internalID: -1057745231
+      spriteID: 127cd455e90b1b84eac685d10b3785fb
+      internalID: 885289173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Walk_3
+      name: brown - E_Walk_3
       rect:
         serializedVersion: 2
         x: 128
@@ -1473,14 +1473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 036024fd36701bf44845a737c03008bf
-      internalID: 1710559195
+      spriteID: a2595ef14277a43438a8f5b8b7f7291a
+      internalID: -349511022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Walk_4
+      name: brown - E_Walk_4
       rect:
         serializedVersion: 2
         x: 192
@@ -1494,14 +1494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d147cfefa608a446a65bbea80566f58
-      internalID: 22427208
+      spriteID: bbf69035e1515b449a7139edf082c4cd
+      internalID: 414144379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Walk_5
+      name: brown - E_Walk_5
       rect:
         serializedVersion: 2
         x: 256
@@ -1515,14 +1515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 448f7e6dade11a943a930755b600c495
-      internalID: 787839514
+      spriteID: 982e136dc6ef25d4c865ec5a76f88e83
+      internalID: -1011859886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: E_Walk_6
+      name: brown - E_Walk_6
       rect:
         serializedVersion: 2
         x: 320
@@ -1536,14 +1536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47427ca0ab5458042b2182a49f78988a
-      internalID: 1527439133
+      spriteID: 74bd1d3f01fb55a439289d79d42e1034
+      internalID: -1695886175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Walk_1
+      name: brown - W_Walk_1
       rect:
         serializedVersion: 2
         x: 0
@@ -1557,14 +1557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e093cbfa93777447a323a46da24fc11
-      internalID: 1124581355
+      spriteID: 1be12cb9ce1e3224985f73bb35f7e41f
+      internalID: -145928937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Walk_2
+      name: brown - W_Walk_2
       rect:
         serializedVersion: 2
         x: 64
@@ -1578,14 +1578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74df52cc94cef54408de702addef8545
-      internalID: -1431990145
+      spriteID: c2585ac5e86ed754db7fba279689e7d3
+      internalID: -181071966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Walk_3
+      name: brown - W_Walk_3
       rect:
         serializedVersion: 2
         x: 128
@@ -1599,14 +1599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3378b84838d2cb478140350370dc5f9
-      internalID: -319815170
+      spriteID: 7cdc482673f2a85488470bc894296638
+      internalID: 1831084781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Walk_4
+      name: brown - W_Walk_4
       rect:
         serializedVersion: 2
         x: 192
@@ -1620,14 +1620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d43b651bac8622b49beaaf4162c42727
-      internalID: 47856448
+      spriteID: dd2ea6837935461489ea7ce62eecc45d
+      internalID: 1951740308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Walk_5
+      name: brown - W_Walk_5
       rect:
         serializedVersion: 2
         x: 256
@@ -1641,14 +1641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 316ae6b4e7aa7da4e8ecb7a723c5b752
-      internalID: -2020049267
+      spriteID: 663efd9e5f423184cb2d5217e85c8544
+      internalID: 833127881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: W_Walk_6
+      name: brown - W_Walk_6
       rect:
         serializedVersion: 2
         x: 320
@@ -1662,8 +1662,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fe7badf124af834193e6073db5f5590
-      internalID: 644770602
+      spriteID: 1b23cef7203e4084c86c115130d79143
+      internalID: -750027536
       vertices: []
       indices: 
       edges: []
@@ -1679,79 +1679,79 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      E_Idle_1: 1130154245
-      E_Idle_10: 1657547038
-      E_Idle_11: 1253756025
-      E_Idle_12: -1697291799
-      E_Idle_2: -2041430752
-      E_Idle_3: 1538838248
-      E_Idle_4: 590265932
-      E_Idle_5: 1738297446
-      E_Idle_6: 1600565446
-      E_Idle_7: -1475434685
-      E_Idle_8: -366707774
-      E_Idle_9: 91665333
-      E_Walk_1: -1041347725
-      E_Walk_2: -1057745231
-      E_Walk_3: 1710559195
-      E_Walk_4: 22427208
-      E_Walk_5: 787839514
-      E_Walk_6: 1527439133
-      N_Idle_1: 509116911
-      N_Idle_10: 269564164
-      N_Idle_11: -321976103
-      N_Idle_12: 2114426380
-      N_Idle_2: -504693581
-      N_Idle_3: 1858277011
-      N_Idle_4: -663875356
-      N_Idle_5: 318832298
-      N_Idle_6: 1982971134
-      N_Idle_7: -1300150365
-      N_Idle_8: 570681353
-      N_Idle_9: -57557871
-      N_Walk_1: -1645019495
-      N_Walk_2: 486501911
-      N_Walk_3: 121991061
-      N_Walk_4: -1257180121
-      N_Walk_5: 988604060
-      N_Walk_6: -762841308
-      S_Idle_1: 1561931433
-      S_Idle_10: 283232741
-      S_Idle_11: -173138178
-      S_Idle_12: 844109445
-      S_Idle_2: -1264612795
-      S_Idle_3: -553762655
-      S_Idle_4: -1250430183
-      S_Idle_5: 1963872771
-      S_Idle_6: -1651335365
-      S_Idle_7: -804572858
-      S_Idle_8: 200039756
-      S_Idle_9: 1375441895
-      S_Walk_1: 503639670
-      S_Walk_2: 2019093414
-      S_Walk_3: 2024299416
-      S_Walk_4: 2097009850
-      S_Walk_5: 636936912
-      S_Walk_6: -420712341
-      W_Idle_1: -975824839
-      W_Idle_10: 923897732
-      W_Idle_11: 1193743768
-      W_Idle_12: 461483387
-      W_Idle_2: -440358403
-      W_Idle_3: 2061628258
-      W_Idle_4: -872086870
-      W_Idle_5: 324124520
-      W_Idle_6: -789442518
-      W_Idle_7: 80804135
-      W_Idle_8: -1296748567
-      W_Idle_9: -1541754712
-      W_Walk_1: 1124581355
-      W_Walk_2: -1431990145
-      W_Walk_3: -319815170
-      W_Walk_4: 47856448
-      W_Walk_5: -2020049267
-      W_Walk_6: 644770602
-      still: -499988623
+      brown - E_Idle_1: 1223449616
+      brown - E_Idle_10: 209999934
+      brown - E_Idle_11: -1280034540
+      brown - E_Idle_12: 2008640117
+      brown - E_Idle_2: -1764692628
+      brown - E_Idle_3: 1418824628
+      brown - E_Idle_4: -1842873736
+      brown - E_Idle_5: -2131738611
+      brown - E_Idle_6: -210673097
+      brown - E_Idle_7: 1694492975
+      brown - E_Idle_8: -1182693224
+      brown - E_Idle_9: -1469773004
+      brown - E_Walk_1: 925165014
+      brown - E_Walk_2: 885289173
+      brown - E_Walk_3: -349511022
+      brown - E_Walk_4: 414144379
+      brown - E_Walk_5: -1011859886
+      brown - E_Walk_6: -1695886175
+      brown - N_Idle_1: -1162715131
+      brown - N_Idle_10: -669350031
+      brown - N_Idle_11: -964878280
+      brown - N_Idle_12: 165928591
+      brown - N_Idle_2: 454490479
+      brown - N_Idle_3: -1793495838
+      brown - N_Idle_4: -1145855150
+      brown - N_Idle_5: -1409992664
+      brown - N_Idle_6: -1993587950
+      brown - N_Idle_7: -1320303924
+      brown - N_Idle_8: 764733411
+      brown - N_Idle_9: -860262099
+      brown - N_Walk_1: -253044108
+      brown - N_Walk_2: 1709553765
+      brown - N_Walk_3: -170716710
+      brown - N_Walk_4: 1231353841
+      brown - N_Walk_5: 1407899285
+      brown - N_Walk_6: -378068061
+      brown - S_Idle_1: -1719193859
+      brown - S_Idle_10: -67342373
+      brown - S_Idle_11: -1526828441
+      brown - S_Idle_12: -1357135337
+      brown - S_Idle_2: -1054464698
+      brown - S_Idle_3: -830082720
+      brown - S_Idle_4: -1074355936
+      brown - S_Idle_5: 1668156675
+      brown - S_Idle_6: 910489643
+      brown - S_Idle_7: 409867137
+      brown - S_Idle_8: -1648102617
+      brown - S_Idle_9: -1170131216
+      brown - S_Walk_1: -1029108589
+      brown - S_Walk_2: 947650162
+      brown - S_Walk_3: -1296922035
+      brown - S_Walk_4: -472622124
+      brown - S_Walk_5: -2085722715
+      brown - S_Walk_6: 2106462357
+      brown - W_Idle_1: 1443973373
+      brown - W_Idle_10: -1721192979
+      brown - W_Idle_11: -1557708213
+      brown - W_Idle_12: -1711245807
+      brown - W_Idle_2: -1812399535
+      brown - W_Idle_3: -1527736783
+      brown - W_Idle_4: -959971650
+      brown - W_Idle_5: -454207662
+      brown - W_Idle_6: -258441137
+      brown - W_Idle_7: -603332195
+      brown - W_Idle_8: -905466750
+      brown - W_Idle_9: -1296682272
+      brown - W_Walk_1: -145928937
+      brown - W_Walk_2: -181071966
+      brown - W_Walk_3: 1831084781
+      brown - W_Walk_4: 1951740308
+      brown - W_Walk_5: 833127881
+      brown - W_Walk_6: -750027536
+      brown - still: 2117150773
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

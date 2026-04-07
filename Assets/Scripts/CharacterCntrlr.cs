@@ -17,15 +17,17 @@ public class CharacterCntrlr : MonoBehaviour
         playerTrans = GetComponent<Transform>();
         anim = GetComponent<Animator>();
 
-        anim.SetBool("Idle S", true);
-        anim.SetBool("Idle E", false);
-        anim.SetBool("Idle N", false);
-        anim.SetBool("Idle W", false);
+        if (anim != null) {
+            anim.SetBool("Idle S", true);
+            anim.SetBool("Idle E", false);
+            anim.SetBool("Idle N", false);
+            anim.SetBool("Idle W", false);
 
-        anim.SetBool("Walk S", false);
-        anim.SetBool("Walk E", false);
-        anim.SetBool("Walk N", false);
-        anim.SetBool("Walk W", false);
+            anim.SetBool("Walk S", false);
+            anim.SetBool("Walk E", false);
+            anim.SetBool("Walk N", false);
+            anim.SetBool("Walk W", false);
+        }
     }
 
     // Update is called once per frame
@@ -40,25 +42,27 @@ public class CharacterCntrlr : MonoBehaviour
 
         bool isMoving = velocity.magnitude > 0;
 
-        if (x > 0)
-        {
-            SetAnimationState("E", isMoving);
-        }
-        else if (x < 0)
-        {
-            SetAnimationState("W", isMoving);
-        }
-        else if (y > 0)
-        {
-            SetAnimationState("N", isMoving);
-        }
-        else if (y < 0)
-        {
-            SetAnimationState("S", isMoving);
-        }
-        else if (!isMoving)
-        {
-            ResetWalkAnimations();
+        if (anim != null) {
+            if (x > 0)
+            {
+                SetAnimationState("E", isMoving);
+            }
+            else if (x < 0)
+            {
+                SetAnimationState("W", isMoving);
+            }
+            else if (y > 0)
+            {
+                SetAnimationState("N", isMoving);
+            }
+            else if (y < 0)
+            {
+                SetAnimationState("S", isMoving);
+            }
+            else if (!isMoving)
+            {
+                ResetWalkAnimations();
+            }
         }
     }
 
