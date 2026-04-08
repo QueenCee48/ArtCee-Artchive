@@ -49,6 +49,7 @@ MonoBehaviour:
   startingState: {fileID: 11400000, guid: bc0cbec6bad149348a3c6964fc8f48db, type: 2}
   sceneMngr: {fileID: 5600793734085459868}
   characterCntrlr: {fileID: 8510695184301834345}
+  spawnMngr: {fileID: 0}
 --- !u!1001 &4252547572814067111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68,10 +69,6 @@ PrefabInstance:
     - target: {fileID: 4930873505081756114, guid: 75196168d2828c74783efec2c1594920, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.6226244
-      objectReference: {fileID: 0}
-    - target: {fileID: 4930873505081756114, guid: 75196168d2828c74783efec2c1594920, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 9.902171
       objectReference: {fileID: 0}
     - target: {fileID: 4930873505081756114, guid: 75196168d2828c74783efec2c1594920, type: 3}
       propertyPath: m_LocalRotation.w
