@@ -16,10 +16,6 @@ public class CharacterCustomizationCntrlr : MonoBehaviour
         optionIndex = 0;
 
         spriteLibrary.spriteLibraryAsset = options[optionIndex];
-
-        if (gameObject.name == "skin") {
-            spriteResolver.SetCategoryAndLabel("body", "S_Idle_1");
-        }
     }
 
     // Update is called once per frame
@@ -36,7 +32,7 @@ public class CharacterCustomizationCntrlr : MonoBehaviour
             optionIndex = 0;
         }
         
-        ApplyOption();
+        spriteLibrary.spriteLibraryAsset = options[optionIndex];
     }
 
     public void PrevOption()
@@ -47,15 +43,6 @@ public class CharacterCustomizationCntrlr : MonoBehaviour
             optionIndex = options.Count - 1;
         }
         
-        ApplyOption();
-    }
-
-    void ApplyOption()
-    {
         spriteLibrary.spriteLibraryAsset = options[optionIndex];
-
-        if (gameObject.name == "skin") {
-            spriteResolver.SetCategoryAndLabel("body", spriteResolver.GetLabel());
-        }
     }
 }
