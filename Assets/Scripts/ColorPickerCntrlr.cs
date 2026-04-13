@@ -161,6 +161,10 @@ public class ColorPickerCntrlr : MonoBehaviour
                             targetPreviewImg = eyePreviewImg;
                             targetCharacterAsset = eyeCharAsset;
                             break;
+                        case "HairBtnFill":
+                            targetPreviewImg = hairPreviewImg;
+                            targetCharacterAsset = hairCharAsset;
+                            break;
                     }
                 }
 
