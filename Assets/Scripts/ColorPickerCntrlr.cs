@@ -173,6 +173,10 @@ public class ColorPickerCntrlr : MonoBehaviour
                             targetPreviewImg = botPreviewImg;
                             targetCharacterAsset = botCharAsset;
                             break;
+                        case "ShoeBtnFill":
+                            targetPreviewImg = shoePreviewImg;
+                            targetCharacterAsset = shoeCharAsset;
+                            break;
                     }
                 }
 
