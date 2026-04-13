@@ -169,6 +169,10 @@ public class ColorPickerCntrlr : MonoBehaviour
                             targetPreviewImg = topPreviewImg;
                             targetCharacterAsset = topCharAsset;
                             break;
+                        case "BottomBtnFill":
+                            targetPreviewImg = botPreviewImg;
+                            targetCharacterAsset = botCharAsset;
+                            break;
                     }
                 }
 
