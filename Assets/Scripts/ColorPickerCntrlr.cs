@@ -165,6 +165,10 @@ public class ColorPickerCntrlr : MonoBehaviour
                             targetPreviewImg = hairPreviewImg;
                             targetCharacterAsset = hairCharAsset;
                             break;
+                        case "TopBtnFill":
+                            targetPreviewImg = topPreviewImg;
+                            targetCharacterAsset = topCharAsset;
+                            break;
                     }
                 }
 
@@ -187,14 +191,14 @@ public class ColorPickerCntrlr : MonoBehaviour
         targetPreviewImg = null;
         targetCharacterAsset = null;
 
-        hueSlider.value = 0;
-        satSlider.value = 0;
-        valSlider.value = 0;
+        // hueSlider.value = 0;
+        // satSlider.value = 0;
+        // valSlider.value = 0;
 
-        currentHue = 0;
-        currentSat = 0;
-        currentVal = 1;
+        // currentHue = 0;
+        // currentSat = 0;
+        // currentVal = 1;
 
-        UpdateSVImages();
+        // UpdateSVImages();
     }
 }
