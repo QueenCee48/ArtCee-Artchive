@@ -4448,8 +4448,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Use WASD or \u2191 \u2190 \u2193 \u2192 to \nexplore the museum.\nClick
-    on an exhibit to go in \ndetail view.\n\nClick anywhere to continue!"
+  m_Text: "Use WASD or \u2191 \u2190 \u2193 \u2192 to \nexplore the museum.\nWalk
+    up to an exhibit then \npress SPACE to view.\n\nClick on a computer to view the
+    site.\n\nClick anywhere to continue!"
 --- !u!222 &569340909
 CanvasRenderer:
   m_ObjectHideFlags: 0

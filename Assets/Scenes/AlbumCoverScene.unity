@@ -2820,7 +2820,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -2834,10 +2834,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012504756, y: 0.0062346756}
+  m_Offset: {x: 0.0012504756, y: -0.29141176}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2848,7 +2848,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5873322, y: 0.81241995}
+  m_Size: {x: 0.5873322, y: 1.4077128}
   m_EdgeRadius: 0
 --- !u!212 &434473401
 SpriteRenderer:
@@ -2916,6 +2916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detailViewSprite: {fileID: 21300000, guid: ac70b5e8c6bfc834a847897f783ca345, type: 3}
   detailViewCntrlr: {fileID: 453266227}
+  playerInTrigger: 0
 --- !u!1 &453266225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3506,7 +3507,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -3520,10 +3521,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012504756, y: 0.0062346756}
+  m_Offset: {x: 0.0012504756, y: -0.2914117}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3534,7 +3535,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5873322, y: 0.81241995}
+  m_Size: {x: 0.5873322, y: 1.407713}
   m_EdgeRadius: 0
 --- !u!212 &881474786
 SpriteRenderer:
@@ -3602,6 +3603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detailViewSprite: {fileID: 21300000, guid: 975f65758eef81a4fa2db367872a276b, type: 3}
   detailViewCntrlr: {fileID: 453266227}
+  playerInTrigger: 0
 --- !u!1 &908295201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3651,7 +3653,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -3665,10 +3667,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012504756, y: 0.0062346756}
+  m_Offset: {x: 0.0012504756, y: -0.31621575}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3679,7 +3681,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5873322, y: 0.81241995}
+  m_Size: {x: 0.5873322, y: 1.4573207}
   m_EdgeRadius: 0
 --- !u!212 &908295204
 SpriteRenderer:
@@ -3747,6 +3749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detailViewSprite: {fileID: 21300000, guid: b5cb5061c71b83e4d87fbe81b3e0420b, type: 3}
   detailViewCntrlr: {fileID: 453266227}
+  playerInTrigger: 0
 --- !u!1 &1071396007
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,7 +4125,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -4136,10 +4139,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012504756, y: 0.0062346756}
+  m_Offset: {x: 0.0012504756, y: -0.30381364}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4150,7 +4153,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5873322, y: 0.81241995}
+  m_Size: {x: 0.5873322, y: 1.4325167}
   m_EdgeRadius: 0
 --- !u!212 &1385799669
 SpriteRenderer:
@@ -4218,6 +4221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detailViewSprite: {fileID: 21300000, guid: 864d42a6cb2e8cc44937b398b968ef42, type: 3}
   detailViewCntrlr: {fileID: 453266227}
+  playerInTrigger: 0
 --- !u!1 &1424260763
 GameObject:
   m_ObjectHideFlags: 0
@@ -4560,7 +4564,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -4574,10 +4578,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012504756, y: 0.0062346756}
+  m_Offset: {x: 0.0012504756, y: -0.2852108}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4588,7 +4592,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5873322, y: 0.81241995}
+  m_Size: {x: 0.5873322, y: 1.3953109}
   m_EdgeRadius: 0
 --- !u!212 &1668135791
 SpriteRenderer:
@@ -4656,6 +4660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detailViewSprite: {fileID: 21300000, guid: 7203aedab9cfa5641afeac6df060e014, type: 3}
   detailViewCntrlr: {fileID: 453266227}
+  playerInTrigger: 0
 --- !u!1 &1719233444
 GameObject:
   m_ObjectHideFlags: 0
@@ -4788,7 +4793,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -4802,10 +4807,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012504756, y: 0.0062346756}
+  m_Offset: {x: 0.0012504756, y: -0.29141188}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4816,7 +4821,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5873322, y: 0.81241995}
+  m_Size: {x: 0.5873322, y: 1.4077135}
   m_EdgeRadius: 0
 --- !u!212 &1738904379
 SpriteRenderer:
@@ -4884,6 +4889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detailViewSprite: {fileID: 21300000, guid: 92371d4027e89cd449cdedcc07f75a75, type: 3}
   detailViewCntrlr: {fileID: 453266227}
+  playerInTrigger: 0
 --- !u!1 &1763570299
 GameObject:
   m_ObjectHideFlags: 0
@@ -4933,7 +4939,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -4947,10 +4953,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012504756, y: 0.0062346756}
+  m_Offset: {x: 0.0012504756, y: -0.27280888}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4961,7 +4967,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5873322, y: 0.81241995}
+  m_Size: {x: 0.5873322, y: 1.370507}
   m_EdgeRadius: 0
 --- !u!212 &1763570302
 SpriteRenderer:
@@ -5029,6 +5035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detailViewSprite: {fileID: 21300000, guid: 3e097f61183d84849b5ba449e952ad29, type: 3}
   detailViewCntrlr: {fileID: 453266227}
+  playerInTrigger: 0
 --- !u!1 &1799561129
 GameObject:
   m_ObjectHideFlags: 0
@@ -5110,7 +5117,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -5124,10 +5131,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012504756, y: 0.0062346756}
+  m_Offset: {x: 0.0012504756, y: -0.30381376}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5138,7 +5145,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5873322, y: 0.81241995}
+  m_Size: {x: 0.5873322, y: 1.4325167}
   m_EdgeRadius: 0
 --- !u!212 &1917916286
 SpriteRenderer:
@@ -5206,6 +5213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detailViewSprite: {fileID: 21300000, guid: da05630ab487b9b499d44f9e227993cb, type: 3}
   detailViewCntrlr: {fileID: 453266227}
+  playerInTrigger: 0
 --- !u!1 &1953780529
 GameObject:
   m_ObjectHideFlags: 0
@@ -5359,7 +5367,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -5373,10 +5381,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0012504756, y: 0.0062346756}
+  m_Offset: {x: 0.0012504756, y: -0.31001472}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5387,7 +5395,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5873322, y: 0.81241995}
+  m_Size: {x: 0.5873322, y: 1.4449186}
   m_EdgeRadius: 0
 --- !u!212 &2098584886
 SpriteRenderer:
@@ -5455,6 +5463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detailViewSprite: {fileID: 21300000, guid: 4d1b4532b2052894baac00dd30adfed8, type: 3}
   detailViewCntrlr: {fileID: 453266227}
+  playerInTrigger: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

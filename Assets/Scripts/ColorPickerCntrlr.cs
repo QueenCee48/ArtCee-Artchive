@@ -190,23 +190,13 @@ public class ColorPickerCntrlr : MonoBehaviour
 
         if (!anyBtnActive)
         {
-            ResetSliders();
+            ResetTargets();
         }
     }
 
-    public void ResetSliders()
+    public void ResetTargets()
     {
         targetPreviewImg = null;
         targetCharacterAsset = null;
-
-        // hueSlider.value = 0;
-        // satSlider.value = 0;
-        // valSlider.value = 0;
-
-        // currentHue = 0;
-        // currentSat = 0;
-        // currentVal = 1;
-
-        // UpdateSVImages();
     }
 }
