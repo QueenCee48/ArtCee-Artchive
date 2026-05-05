@@ -25,6 +25,8 @@ public class DetailViewController : MonoBehaviour
     public string aboutTxt;
     public string storyTxt;
 
+    public SoundFXController sfxCntrlr;
+
     public void Start()
 	{
 		detailViewOpen = false;
@@ -33,10 +35,14 @@ public class DetailViewController : MonoBehaviour
 
         aboutTxt = "";
         storyTxt = "";
+
+        sfxCntrlr = GameObject.Find("SoundFX").GetComponent<SoundFXController>();
 	}
 	
 	public void OpenDetailView(Sprite detailSprite, string aboutInfo, string storyInfo)
 	{
+        sfxCntrlr.PlayOpenDVSFX();
+        
         detailViewOpen = true;
         aboutTabOpen = true;
         storyTabOpen = false;

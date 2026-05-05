@@ -12,6 +12,8 @@ public class TabController : MonoBehaviour
 
     public Image aboutTabImg;
     public Image storyTabImg;
+
+    public SoundFXController sfxCntrlr;
     
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,7 @@ public class TabController : MonoBehaviour
         detailViewCntrlr = GameObject.Find("DetailView").GetComponent<DetailViewController>();
         aboutTabImg = GameObject.Find("DetailViewAboutTab").GetComponent<Image>();
         storyTabImg = GameObject.Find("DetailViewStoryTab").GetComponent<Image>();
+        sfxCntrlr = GameObject.Find("SoundFX").GetComponent<SoundFXController>();
     }
 
     // Update is called once per frame
@@ -32,6 +35,8 @@ public class TabController : MonoBehaviour
     }
 
     public void SwapDetailDataTabs() {
+        sfxCntrlr.PlayChangeTabSFX();
+        
         if (gameObject.name == "DetailViewAboutTab") {
             detailViewCntrlr.aboutTabOpen = true;
             detailViewCntrlr.storyTabOpen = false;

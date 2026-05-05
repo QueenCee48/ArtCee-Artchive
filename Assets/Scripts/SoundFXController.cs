@@ -6,6 +6,10 @@ public class SoundFXController : MonoBehaviour
 {
     AudioSource audioSrc;
 
+    public AudioClip clickSFX;
+    public AudioClip openDVSFX;
+    public AudioClip changeTabSFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +21,20 @@ public class SoundFXController : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
+            audioSrc.clip = clickSFX;
             audioSrc.Play();
         }
+    }
+
+    public void PlayOpenDVSFX()
+    {
+        audioSrc.clip = openDVSFX;
+        audioSrc.Play();
+    }
+
+    public void PlayChangeTabSFX()
+    {
+        audioSrc.clip = changeTabSFX;
+        audioSrc.Play();
     }
 }
