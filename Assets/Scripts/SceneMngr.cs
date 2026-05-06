@@ -16,9 +16,9 @@ public class SceneMngr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
-        playerTrans = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
+        // spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
+        // playerTrans = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        // defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
         currentScene = SceneManager.GetActiveScene().name;
     }
 
@@ -39,6 +39,12 @@ public class SceneMngr : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        // TESTING
+        spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
+        // playerTrans = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
+        // END TESTING
+
         spawnMngr.SpawnPlayer(defaultSpawn);
 
         SceneManager.sceneLoaded -= OnSceneLoaded;

@@ -23,6 +23,25 @@ public class SpawnMngr : MonoBehaviour
 
     public void SpawnPlayer(Transform defaultSpawnPoint)
     {
+        // TESTING
+        if (GameState == null)
+        {
+            Debug.LogError("GameState is NULL in SpawnMngr");
+            return;
+        }
+
+        if (playerTrans == null)
+        {
+            playerTrans = GameObject.FindGameObjectWithTag("Player").transform;
+        }
+
+        if (defaultSpawnPoint == null)
+        {
+            Debug.LogError("Default spawn point is NULL");
+            return;
+        }
+        // END TESTING
+        
         if (GameState.spawnPoint != "")
         {
             bool foundSpawn = false;
