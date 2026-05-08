@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,7 +13,6 @@ public class TabController : MonoBehaviour
 
     public SoundFXController sfxCntrlr;
     
-    // Start is called before the first frame update
     void Start()
     {
         detailViewCntrlr = GameObject.Find("DetailView").GetComponent<DetailViewController>();
@@ -24,9 +21,9 @@ public class TabController : MonoBehaviour
         sfxCntrlr = GameObject.Find("SoundFX").GetComponent<SoundFXController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        // Reset tab images if detail view is closed
         if (!detailViewCntrlr.detailViewOpen)
         {
             aboutTabImg.sprite = selectedTabImg;
@@ -34,6 +31,7 @@ public class TabController : MonoBehaviour
         }
     }
 
+    // Swaps the text and tab images in the detail view when a tab is clicked
     public void SwapDetailDataTabs() {
         sfxCntrlr.PlayChangeTabSFX();
         

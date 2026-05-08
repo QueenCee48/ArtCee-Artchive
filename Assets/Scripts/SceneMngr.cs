@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class SceneMngr : MonoBehaviour
 {
@@ -13,40 +12,50 @@ public class SceneMngr : MonoBehaviour
     Transform playerTrans;
     Transform defaultSpawn;
 
-    // Start is called before the first frame update
     void Start()
     {
-        // spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
-        // playerTrans = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        // defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
         currentScene = SceneManager.GetActiveScene().name;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // Loads the specified scene and sets the spawn point for the new scene
     public void LoadScene(string sceneName, string spawnPointName)
     {
         GameState.spawnPoint = spawnPointName;
+        Debug.Log("Spawn point set to: " + GameState.spawnPoint);
 
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        // SceneManager.sceneLoaded += OnSceneLoaded;
 
         SceneManager.LoadScene(sceneName);
     }
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        // TESTING
-        spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
-        // playerTrans = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
-        // END TESTING
+    // Spawns the player at the correct spawn point after a new scene is loaded
+    // private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    // {
+    //     spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
+    //     defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
 
-        spawnMngr.SpawnPlayer(defaultSpawn);
+    //     spawnMngr.SpawnPlayer(defaultSpawn);
 
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
+    //     SceneManager.sceneLoaded -= OnSceneLoaded;
+    // }
+
+
+    // TESTING
+    // private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    // {
+    //     StartCoroutine(SpawnAfterSceneLoad());
+
+    //     SceneManager.sceneLoaded -= OnSceneLoaded;
+    // }
+
+    // IEnumerator SpawnAfterSceneLoad()
+    // {
+    //     yield return null;
+
+    //     spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
+    //     Transform defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
+
+    //     spawnMngr.SpawnPlayer(defaultSpawn);
+    // }
+    // END TESTING
 }

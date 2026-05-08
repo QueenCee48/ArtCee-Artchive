@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ColorPickerCntrlr : MonoBehaviour
@@ -28,8 +24,8 @@ public class ColorPickerCntrlr : MonoBehaviour
 
     public Image[] btnFills;
     bool anyBtnActive;
+    private Image prevBtnFill;
 
-    // Start is called before the first frame update
     void Start()
     {
         CreateHueImage();
@@ -44,12 +40,12 @@ public class ColorPickerCntrlr : MonoBehaviour
         anyBtnActive = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         UpdateTargetImages();
     }
 
+    // Creates the hue gradient texture and assigns it to the hue image
     private void CreateHueImage()
     {
         hueTexture = new Texture2D(1, 16);
@@ -67,6 +63,7 @@ public class ColorPickerCntrlr : MonoBehaviour
         hueImg.texture = hueTexture;
     }
 
+    // Creates the saturation gradient texture based on the current hue and assigns it to the saturation image
     private void CreateSatImage()
     {
         satTexture = new Texture2D(1, 16);
@@ -84,6 +81,7 @@ public class ColorPickerCntrlr : MonoBehaviour
         satImg.texture = satTexture;
     }
 
+    // Creates the value gradient texture based on the current hue and assigns it to the value image
     private void CreateValImage()
     {
         valTexture = new Texture2D(1, 16);
@@ -102,16 +100,19 @@ public class ColorPickerCntrlr : MonoBehaviour
         valImg.texture = valTexture;
     }
 
+    // Updates the current saturation based on the saturation slider value
     public void UpdateSat()
     {
         currentSat = satSlider.value;
     }
 
+    // Updates the current value based on the value slider value
     public void UpdateVal()
     {
         currentVal = 1 - valSlider.value;
     }
 
+    // Updates the hue based on the hue slider value and regenerates the saturation and value gradient textures
     public void UpdateSVImages()
     {
         currentHue = hueSlider.value;
@@ -131,6 +132,7 @@ public class ColorPickerCntrlr : MonoBehaviour
         valTexture.Apply();
     }
 
+    // Updates the preview image and character asset colors based on the current HSV values
     public void UpdateTargetImages()
     {
         if (targetPreviewImg == null || targetCharacterAsset == null || !anyBtnActive) return;
@@ -139,8 +141,7 @@ public class ColorPickerCntrlr : MonoBehaviour
         targetCharacterAsset.color = Color.HSVToRGB(currentHue, currentSat, currentVal);
     }
 
-    private Image prevBtnFill;
-
+    // Sets the preview image and character asset based on the selection, and toggles the button fill visibility
     public void SetBtnFill(string btnFillName)
     {
         anyBtnActive = false;
@@ -194,6 +195,7 @@ public class ColorPickerCntrlr : MonoBehaviour
         }
     }
 
+    // Resets the preview image and character asset references when no button is active
     public void ResetTargets()
     {
         targetPreviewImg = null;

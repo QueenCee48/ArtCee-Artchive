@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -27,50 +25,37 @@ public class GameMngr : MonoBehaviour
         else
         {
             Instance = this;
-            // DontDestroyOnLoad(this);
 
-            // TESTING
             DontDestroyOnLoad(gameObject);
-            // END TESTING
         }
 
-        //Set up game state
+        // Set up game state
         GameState = Instantiate(startingState);
         sceneMngr.GameState = GameState;
         characterCntrlr.GameState = GameState;
 
-        /*
-        spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
-        spawnMngr.GameState = GameState;
-        */
-
-        // TESTING
         AssignSpawnMngr();
-        // END TESTING
     }
 
-    // void Update()
-    // {
-    //     spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
-    //     spawnMngr.GameState = GameState;
-    // }
-
-    // TESTING
+    // Subscribe to scene loaded event to assign SpawnMngr reference in new scenes
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
+    // Unsubscribe to scene loaded event to prevent memory leaks
     void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
+    // Calls AssignSpawnMngr() whenever a new scene is loaded
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         AssignSpawnMngr();
     }
 
+    // Helper method to find and assign SpawnMngr reference in the current scene
     void AssignSpawnMngr()
     {
         GameObject spawnObj = GameObject.Find("SpawnPoints");
@@ -93,5 +78,4 @@ public class GameMngr : MonoBehaviour
             Debug.LogWarning("SpawnPoints object not found in scene.");
         }
     }
-    //END TESTING
 }

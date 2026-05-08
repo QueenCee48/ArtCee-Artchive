@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -39,6 +36,7 @@ public class DetailViewController : MonoBehaviour
         sfxCntrlr = GameObject.Find("SoundFX").GetComponent<SoundFXController>();
 	}
 	
+    // Opens the detail view with the appropriate data based on the small view that was clicked
 	public void OpenDetailView(Sprite detailSprite, string aboutInfo, string storyInfo)
 	{
         sfxCntrlr.PlayOpenDVSFX();
@@ -68,6 +66,7 @@ public class DetailViewController : MonoBehaviour
         }
     }
 	
+    // Closes the detail view and resets all relevant variables and UI elements
 	public void CloseDetailView()
 	{
 		detailViewOpen = false;

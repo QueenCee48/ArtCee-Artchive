@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundFXController : MonoBehaviour
@@ -10,15 +8,14 @@ public class SoundFXController : MonoBehaviour
     public AudioClip openDVSFX;
     public AudioClip changeTabSFX;
 
-    // Start is called before the first frame update
     void Start()
     {
         audioSrc = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        // Plays the click sound every time the player clicks
         if (Input.GetButtonDown("Fire1"))
         {
             audioSrc.clip = clickSFX;
@@ -26,12 +23,14 @@ public class SoundFXController : MonoBehaviour
         }
     }
 
+    // Playes the whish sound fx when the detail view is opened
     public void PlayOpenDVSFX()
     {
         audioSrc.clip = openDVSFX;
         audioSrc.Play();
     }
 
+    // plays the page flip sound fx when the player switches tabs in the detail view
     public void PlayChangeTabSFX()
     {
         audioSrc.clip = changeTabSFX;

@@ -10,7 +10,6 @@ public class CharacterCustomizationCntrlr : MonoBehaviour
     public List<SpriteLibraryAsset> options = new List<SpriteLibraryAsset>();
     public int optionIndex;
 
-    // Start is called before the first frame update
     void Start()
     {
         optionIndex = 0;
@@ -18,12 +17,7 @@ public class CharacterCustomizationCntrlr : MonoBehaviour
         spriteLibrary.spriteLibraryAsset = options[optionIndex];
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // Get the next option in the list and update the sprite library to the new option
     public void NextOption()
     {
         optionIndex++;
@@ -35,6 +29,7 @@ public class CharacterCustomizationCntrlr : MonoBehaviour
         spriteLibrary.spriteLibraryAsset = options[optionIndex];
     }
 
+    // Get the previous option in the list and update the sprite library to the new option
     public void PrevOption()
     {
         optionIndex--;

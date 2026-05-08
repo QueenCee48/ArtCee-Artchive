@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -31,7 +29,6 @@ public class ScreenMngr : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         HideCharCustScreen();
@@ -43,12 +40,7 @@ public class ScreenMngr : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // Hides the starting screen and shows the instruction screen
     public void EnterGame()
     {
         HideTitleScreen();
@@ -56,18 +48,21 @@ public class ScreenMngr : MonoBehaviour
         alreadyStartedGame = true;
     }
 
+    // Hides the instruction screen and shows the character customization screen
     public void StartCustomization()
     {
         HideInstructionScreen();
         ShowCharCustScreen();
     }
 
+    // Hides the character customization screen and hides all the button fills
     public void ConfirmCustomization()
     {
         HideCharCustScreen();
         HideAllBtnFills();
     }
 
+    // Enables all the images in the starting screen
     public void ShowTitleScreen()
     {
         foreach (Image titleImg in titleImgs)
@@ -76,6 +71,7 @@ public class ScreenMngr : MonoBehaviour
         }
     }
 
+    // Hides all the images in the starting screen
     public void HideTitleScreen()
     {
         foreach (Image titleImg in titleImgs)
@@ -84,18 +80,21 @@ public class ScreenMngr : MonoBehaviour
         }
     }
 
+    // Enables the objects on the instruction screen
     public void ShowInstructionScreen()
     {
         insBG.enabled = true;
         insTxt.enabled = true;
     }
 
+    // Hides the objects on the instruction screen
     public void HideInstructionScreen()
     {
         insBG.enabled = false;
         insTxt.enabled = false;
     }
 
+    // Enables all the objects on the character customization screen
     public void ShowCharCustScreen()
     {
         foreach (Image ccMenuImg in ccMenuImgs)
@@ -114,6 +113,7 @@ public class ScreenMngr : MonoBehaviour
         }
     }
 
+    // Hides all the objects on the character customization screen
     public void HideCharCustScreen()
     {
         foreach (Image ccMenuImg in ccMenuImgs)
@@ -132,6 +132,7 @@ public class ScreenMngr : MonoBehaviour
         }
     }
 
+    // Hides all the button fills on the character customization screen
     public void HideAllBtnFills()
     {
         foreach (Image ccBtnFill in ccBtnFills)

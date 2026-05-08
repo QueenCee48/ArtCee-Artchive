@@ -1,23 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ComputerCntrlr : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OnMouseDown()
     {
+        // Opens the URL associated with the computer that was clicked on
         switch (gameObject.name)
         {
             case "Computer":

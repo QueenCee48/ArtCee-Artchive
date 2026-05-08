@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterCntrlr : MonoBehaviour
@@ -12,14 +10,12 @@ public class CharacterCntrlr : MonoBehaviour
     public bool isMoving;
     public float x, y;
 
-    // Start is called before the first frame update
     void Start()
     {
         sceneMngr = GameObject.Find("SceneManager").GetComponent<SceneMngr>();
         playerTrans = GetComponent<Transform>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         x = Input.GetAxis("Horizontal");
@@ -36,6 +32,8 @@ public class CharacterCntrlr : MonoBehaviour
     {
         GameObject otherGO = collision.gameObject;
 
+
+        // set the spawn point based on the triggered door, then load the corresponding scene
         if (otherGO.tag == "Door")
         {
             switch (otherGO.name)

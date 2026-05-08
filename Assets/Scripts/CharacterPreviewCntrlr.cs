@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,15 +9,9 @@ public class CharacterPreviewCntrlr : MonoBehaviour
 
     public CharacterCustomizationCntrlr customizationCntrlr;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        // Match the preview sprite to the currently selected option in the customization cotroller
         previewSprite.sprite = options[customizationCntrlr.optionIndex];
     }
 }

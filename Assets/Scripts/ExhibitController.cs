@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ExhibitController : MonoBehaviour
@@ -12,15 +10,9 @@ public class ExhibitController : MonoBehaviour
 
     public bool playerInTrigger = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        // Sets the detail view data based on the exhibit the player interacts with and then opens the detail view
         if (playerInTrigger && Input.GetButtonDown("Jump"))
         {
             switch (gameObject.name)
@@ -212,6 +204,7 @@ public class ExhibitController : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D otherGO)
     {
+        // Detects if the player is in the trigger
         if (otherGO.gameObject.tag == "Player")
         {
             playerInTrigger = true;
@@ -220,6 +213,7 @@ public class ExhibitController : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D otherGO)
     {
+        // Detects if the player leaves the trigger
         if (otherGO.gameObject.tag == "Player")
         {
             playerInTrigger = false;
