@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class SceneMngr : MonoBehaviour
 {
@@ -23,39 +22,24 @@ public class SceneMngr : MonoBehaviour
         GameState.spawnPoint = spawnPointName;
         Debug.Log("Spawn point set to: " + GameState.spawnPoint);
 
-        // SceneManager.sceneLoaded += OnSceneLoaded;
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null)
+        {
+            CharacterCntrlr characterCntrlr = player.GetComponent<CharacterCntrlr>();
+            Collider2D playerCollider = player.GetComponent<Collider2D>();
+
+            if (characterCntrlr != null)
+            {
+                characterCntrlr.canMove = false;
+            }
+
+            if (playerCollider != null)
+            {
+                playerCollider.enabled = false;
+            }
+        }
 
         SceneManager.LoadScene(sceneName);
     }
-
-    // Spawns the player at the correct spawn point after a new scene is loaded
-    // private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    // {
-    //     spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
-    //     defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
-
-    //     spawnMngr.SpawnPlayer(defaultSpawn);
-
-    //     SceneManager.sceneLoaded -= OnSceneLoaded;
-    // }
-
-
-    // TESTING
-    // private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    // {
-    //     StartCoroutine(SpawnAfterSceneLoad());
-
-    //     SceneManager.sceneLoaded -= OnSceneLoaded;
-    // }
-
-    // IEnumerator SpawnAfterSceneLoad()
-    // {
-    //     yield return null;
-
-    //     spawnMngr = GameObject.Find("SpawnPoints").GetComponent<SpawnMngr>();
-    //     Transform defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
-
-    //     spawnMngr.SpawnPlayer(defaultSpawn);
-    // }
-    // END TESTING
 }

@@ -10,6 +10,8 @@ public class CharacterCntrlr : MonoBehaviour
     public bool isMoving;
     public float x, y;
 
+    public bool canMove = true;
+
     void Start()
     {
         sceneMngr = GameObject.Find("SceneManager").GetComponent<SceneMngr>();
@@ -18,6 +20,11 @@ public class CharacterCntrlr : MonoBehaviour
 
     void Update()
     {
+        if (!canMove)
+        {
+            return;
+        }
+
         x = Input.GetAxis("Horizontal");
         y = Input.GetAxis("Vertical");
 

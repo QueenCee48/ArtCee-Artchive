@@ -12,14 +12,6 @@ public class SpawnMngr : MonoBehaviour
 
     public GameObject[] spawns;
 
-    // void Start()
-    // {
-    //     characterCntrlr = GameObject.Find("Player").GetComponent<CharacterCntrlr>();
-    //     playerTrans = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-    //     defaultSpawn = GameObject.Find("SpawnDefault").GetComponent<Transform>();
-    // }
-
-    // TESTING
     IEnumerator Start()
     {
         yield return null;
@@ -28,7 +20,6 @@ public class SpawnMngr : MonoBehaviour
 
         SpawnPlayer(defaultSpawn);
     }
-    // END TESTING
 
     // Spawns the player at the spawn point specified in GameState, or at the default spawn if no spawn point is set
     public void SpawnPlayer(Transform defaultSpawnPoint)
@@ -39,7 +30,6 @@ public class SpawnMngr : MonoBehaviour
             return;
         }
 
-        // TESTING
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         if (player == null)
@@ -49,12 +39,6 @@ public class SpawnMngr : MonoBehaviour
         }
 
         playerTrans = player.transform;
-        // END TESTING
-
-        // if (playerTrans == null)
-        // {
-        //     playerTrans = GameObject.FindGameObjectWithTag("Player").transform;
-        // }
 
         if (defaultSpawnPoint == null)
         {
@@ -75,34 +59,37 @@ public class SpawnMngr : MonoBehaviour
                 {
                     foundSpawn = true;
 
-                    //spawn player at spawn point
-                    // playerTrans.position = spawn.GetComponent<Transform>().position;
-
-                    // TESTING
                     playerTrans.position = spawn.transform.position;
 
                     Debug.Log("Spawning at " + spawn.name);
 
-                    // GameObject.FindGameObjectWithTag("Player")
-                    // END TESTING
                     break;
                 }
             }
             if (!foundSpawn)
             {
-                // throw new MissingReferenceException("Spawn point " + GameState.spawnPoint + " not found in scene.");
-               
-                // TESTING
                 Debug.LogWarning("Spawn point " + GameState.spawnPoint + " not found in scene. Spawning at default location.");
                 
                 playerTrans.position = defaultSpawnPoint.position;
-                // END TESTING
             }
         }
         else
         {
             playerTrans.position = defaultSpawnPoint.position;
             Debug.Log("No spawn point set, spawning at default location");
+        }
+
+        CharacterCntrlr charCntrlr = player.GetComponent<CharacterCntrlr>();
+        Collider2D playerCollider = player.GetComponent<Collider2D>();
+
+        if (charCntrlr != null)
+        {
+            charCntrlr.canMove = true;
+        }
+
+        if (playerCollider != null)
+        {
+            playerCollider.enabled = true;
         }
     }
 }
