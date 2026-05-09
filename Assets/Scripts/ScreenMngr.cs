@@ -12,6 +12,8 @@ public class ScreenMngr : MonoBehaviour
     public Text[] ccMenuTxts;
     public RawImage[] ccMenuRawImgs;
     public Image[] ccBtnFills;
+    public Button[] ccBtns;
+    public Slider[] ccSliders;
 
     public static bool alreadyStartedGame = false;
     private static ScreenMngr instance;
@@ -111,6 +113,16 @@ public class ScreenMngr : MonoBehaviour
         {
             ccMenuRawImg.enabled = true;
         }
+
+        foreach (Button ccBtn in ccBtns)
+        {
+            ccBtn.enabled = true;
+        }
+
+        foreach (Slider ccSlider in ccSliders)
+        {
+            ccSlider.enabled = true;
+        }
     }
 
     // Hides all the objects on the character customization screen
@@ -129,6 +141,16 @@ public class ScreenMngr : MonoBehaviour
         foreach (RawImage ccMenuRawImg in ccMenuRawImgs)
         {
             ccMenuRawImg.enabled = false;
+        }
+
+        foreach (Button ccBtn in ccBtns)
+        {
+            ccBtn.enabled = false;
+        }
+
+        foreach (Slider ccSlider in ccSliders)
+        {
+            ccSlider.enabled = false;
         }
     }
 
